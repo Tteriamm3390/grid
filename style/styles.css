@@ -1,0 +1,21 @@
+.container{
+    display: grid;
+    grid-template-rows: 100px 100px 100px 100px;
+    grid-template-columns: 100px 100px 100px 100px;
+    gap: 5px;
+}
+
+.grid-item1{
+    background-color: blue;
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.grid{
+    border:  5px solid black;
+    text-align: center;
+    background-color: goldenrod;
+}
